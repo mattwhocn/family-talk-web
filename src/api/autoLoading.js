@@ -145,7 +145,7 @@ function _createNode () {
     border-radius: 999px;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
-    border: 2px solid rgba(159, 228, 21, .7);
+    border: 2px solid rgba(32, 160, 255, 1);
     border-bottom-color: transparent;
     background-color: transparent;
     -webkit-animation: rotate 1.2s 0s linear infinite;
