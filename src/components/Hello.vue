@@ -21,12 +21,24 @@
 </template>
 
 <script>
+import api from '../api/api.js'
 export default {
   name: 'hello',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
+  },
+  mounted () {
+    api.requestLogin({
+      loginName: '1314455667',
+      password: '123456'
+    }).then(data => {
+      console.log(data)
+    })
+    // api.getSystemBaseInfo().then(data => {
+    //   // console.log(data)
+    // })
   }
 }
 </script>
